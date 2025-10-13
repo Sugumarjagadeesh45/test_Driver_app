@@ -5,7 +5,7 @@ import { Alert } from "react-native";
 
 
 
-const socket = io("https://0b99d73ef6b3.ngrok-free.app", { // Android emulator
+const socket = io("https://7bcca295a6d5.ngrok-free.app", { // Android emulator
  transports: ["polling", "websocket"], 
   autoConnect: false,
   reconnection: true,
