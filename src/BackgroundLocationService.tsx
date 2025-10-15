@@ -10,6 +10,7 @@ const backgroundLocationTask = async (taskData: any) => {
   try {
     console.log('Background location task started');
     
+    
     // Get the token from AsyncStorage
     const token = await AsyncStorage.getItem('authToken');
     if (!token) {
