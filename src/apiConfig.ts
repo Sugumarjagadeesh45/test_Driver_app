@@ -18,8 +18,8 @@ const LOCAL_SOCKET_URL = Platform.select({
 });
 
 // Live server URLs
-const LIVE_API_URL = "https://backend-code-a7ke.onrender.com/api";
-const LIVE_SOCKET_URL = "https://backend-code-a7ke.onrender.com";
+const LIVE_API_URL = "https://dummbackend.onrender.com/api";
+const LIVE_SOCKET_URL = "https://dummbackend.onrender.com";
 
 export const API_BASE = useLocalhost
   ? LOCAL_API_URL
