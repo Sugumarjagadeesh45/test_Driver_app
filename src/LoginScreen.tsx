@@ -149,7 +149,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
       console.log("🌐 Sending login request to server...");
       console.log("Login with driver ID:", driverId);
       
-      const res = await api.post("/driver/login", {
+      const res = await api.post("/drivers/login", {
         driverId,
         password,
         latitude,

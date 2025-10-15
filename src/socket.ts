@@ -5,7 +5,7 @@ import { Alert } from "react-native";
 
 
 
-const socket = io("https://new-fullbackend.onrender.com", { // Android emulator
+const socket = io("https://backend-code-a7ke.onrender.com", { // Android emulator
  transports: ["polling", "websocket"], 
   autoConnect: false,
   reconnection: true,
